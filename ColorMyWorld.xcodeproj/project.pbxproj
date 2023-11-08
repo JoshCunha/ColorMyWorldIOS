@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		EF60A8042AFADFCC006F0D45 /* ColorMyWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8032AFADFCC006F0D45 /* ColorMyWorldApp.swift */; };
-		EF60A8062AFADFCC006F0D45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8052AFADFCC006F0D45 /* ContentView.swift */; };
 		EF60A8082AFADFCE006F0D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF60A8072AFADFCE006F0D45 /* Assets.xcassets */; };
 		EF60A80B2AFADFCE006F0D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF60A80A2AFADFCE006F0D45 /* Preview Assets.xcassets */; };
+		EF60A8132AFAE48D006F0D45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8122AFAE48D006F0D45 /* MainView.swift */; };
+		EF60A8152AFAE66A006F0D45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8142AFAE66A006F0D45 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF60A8002AFADFCC006F0D45 /* ColorMyWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMyWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF60A8032AFADFCC006F0D45 /* ColorMyWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMyWorldApp.swift; sourceTree = "<group>"; };
-		EF60A8052AFADFCC006F0D45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EF60A8072AFADFCE006F0D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF60A80A2AFADFCE006F0D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF60A8122AFAE48D006F0D45 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EF60A8142AFAE66A006F0D45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				EF60A8032AFADFCC006F0D45 /* ColorMyWorldApp.swift */,
-				EF60A8052AFADFCC006F0D45 /* ContentView.swift */,
+				EF60A8112AFAE381006F0D45 /* Views */,
 				EF60A8072AFADFCE006F0D45 /* Assets.xcassets */,
 				EF60A8092AFADFCE006F0D45 /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				EF60A80A2AFADFCE006F0D45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF60A8112AFAE381006F0D45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF60A8122AFAE48D006F0D45 /* MainView.swift */,
+				EF60A8142AFAE66A006F0D45 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF60A8062AFADFCC006F0D45 /* ContentView.swift in Sources */,
+				EF60A8152AFAE66A006F0D45 /* HomeView.swift in Sources */,
 				EF60A8042AFADFCC006F0D45 /* ColorMyWorldApp.swift in Sources */,
+				EF60A8132AFAE48D006F0D45 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
