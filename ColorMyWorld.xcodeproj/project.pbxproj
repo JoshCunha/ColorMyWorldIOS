@@ -12,6 +12,8 @@
 		EF60A80B2AFADFCE006F0D45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF60A80A2AFADFCE006F0D45 /* Preview Assets.xcassets */; };
 		EF60A8132AFAE48D006F0D45 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8122AFAE48D006F0D45 /* MainView.swift */; };
 		EF60A8152AFAE66A006F0D45 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8142AFAE66A006F0D45 /* HomeView.swift */; };
+		EF60A8172AFC30FB006F0D45 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF60A8162AFC30FB006F0D45 /* README.md */; };
+		EF60A8192B04632E006F0D45 /* ImageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF60A8182B04632E006F0D45 /* ImageDisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		EF60A80A2AFADFCE006F0D45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EF60A8122AFAE48D006F0D45 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EF60A8142AFAE66A006F0D45 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EF60A8162AFC30FB006F0D45 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF60A8182B04632E006F0D45 /* ImageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 		EF60A7F72AFADFCC006F0D45 = {
 			isa = PBXGroup;
 			children = (
+				EF60A8162AFC30FB006F0D45 /* README.md */,
 				EF60A8022AFADFCC006F0D45 /* ColorMyWorld */,
 				EF60A8012AFADFCC006F0D45 /* Products */,
 			);
@@ -74,6 +79,7 @@
 			children = (
 				EF60A8122AFAE48D006F0D45 /* MainView.swift */,
 				EF60A8142AFAE66A006F0D45 /* HomeView.swift */,
+				EF60A8182B04632E006F0D45 /* ImageDisplayView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF60A8172AFC30FB006F0D45 /* README.md in Resources */,
 				EF60A80B2AFADFCE006F0D45 /* Preview Assets.xcassets in Resources */,
 				EF60A8082AFADFCE006F0D45 /* Assets.xcassets in Resources */,
 			);
@@ -149,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF60A8152AFAE66A006F0D45 /* HomeView.swift in Sources */,
+				EF60A8192B04632E006F0D45 /* ImageDisplayView.swift in Sources */,
 				EF60A8042AFADFCC006F0D45 /* ColorMyWorldApp.swift in Sources */,
 				EF60A8132AFAE48D006F0D45 /* MainView.swift in Sources */,
 			);
